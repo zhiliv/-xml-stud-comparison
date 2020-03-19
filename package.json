@@ -1,0 +1,18 @@
+{
+  "name": "-xml-stud-comparison-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zhiliv/-xml-stud-comparison",
+  "author": "Ivan Zhilnikov <35070562+zhiliv@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "convert-excel-to-json": "^1.6.1",
+    "json2xls": "^0.1.2",
+    "q": "^1.5.1",
+    "underscore": "^1.9.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

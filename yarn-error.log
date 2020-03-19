@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\CMDer\bin;C:\CMDer\vendor\bin;C:\Program Files\ImageMagick-7.0.9-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Microsoft VS Code\bin;C:\Users\user\AppData\Local\GitHubDesktop\bin;C:\Users\user\AppData\Local\Yarn\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\CMDer
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\develop\-xml-stud-comparison-1\package.json: Unexpected token } in JSON at position 372
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "-xml-stud-comparison-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/zhiliv/-xml-stud-comparison",
+    "author": "Ivan Zhilnikov <35070562+zhiliv@users.noreply.github.com>",
+    "license": "MIT",
+    "dependencies": {
+      "async": "^3.2.0",
+      "convert-excel-to-json": "^1.6.1",
+      "json2xls": "^0.1.2",
+      "q": "^1.5.1"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
